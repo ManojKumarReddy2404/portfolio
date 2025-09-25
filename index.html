@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Kumar Reddy - Cloud & DevOps Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cloud"></i>
+                <span>CloudTech</span>
+            </div>
+            <div class="nav-center">
+                <div class="nav-links" id="navLinks">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="tagline">
+                    <span>👋</span> Cloud & DevOps Engineer
+                </div>
+                <h1>Hi, I'm <span class="typing-text" id="typing-text"></span><span class="cursor">|</span></h1>
+                <p class="intro">
+                    AWS SAA Certified professional passionate about building scalable cloud infrastructure and automating deployments. 
+                    I specialize in AWS, Terraform, Kubernetes, and CI/CD pipelines.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-outline">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi, I'm Manoj Kumar Reddy, a Cloud & DevOps enthusiast from India.</p>
+                    <p>🎓 B.Tech in Mechanical Engineering (2024) — but I transitioned into Cloud/DevOps because I love automation and infrastructure.</p>
+                    <p>🏗️ Worked as a Cloud Intern at Symbiotes.ai, where I contributed to cloud infrastructure, full-stack development, and AI agents.</p>
+                    <p>📖 I write detailed technical blogs on Medium to share my learning journey.</p>
+                    <p>🚀 My goal is to start as an intern/trainee in a high-growth company and grow into a Cloud/Platform Engineer.</p>
+                    <div class="about-cta">
+                        <button class="btn btn-primary" id="getToKnowMeBtn">Get to Know Me</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Content Overlay -->
+    <div class="personal-overlay" id="personalOverlay">
+        <div class="overlay-content">
+            <div class="overlay-header">
+                <h2>Get to Know Me Better</h2>
+                <button class="close-btn" id="closeOverlayBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="personal-content">
+                <div class="personal-section">
+                    <h3>🎯 My Interests</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span>Cloud Computing</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-robot"></i>
+                            <span>AI & Automation</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Gaming</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-music"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-camera"></i>
+                            <span>Photography</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <span>Reading</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="personal-section">
+                    <h3>🎨 Hobbies</h3>
+                    <div class="hobbies-content">
+                        <p>When I'm not coding or working with cloud infrastructure, you'll find me:</p>
+                        <ul>
+                            <li>🎮 Playing strategy games and exploring new tech games</li>
+                            <li>📸 Capturing moments through photography, especially nature and architecture</li>
+                            <li>🎵 Listening to various genres of music while coding</li>
+                            <li>📚 Reading tech blogs, cloud architecture books, and sci-fi novels</li>
+                            <li>🏃‍♂️ Going for runs to clear my mind and stay healthy</li>
+                            <li>🍳 Experimenting with cooking new recipes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="personal-section">
+                    <h3>📸 My Journey</h3>
+                    <div class="media-gallery">
+                        <div class="media-item">
+                            <div class="media-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Photo from my internship at Symbiotes.ai</p>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-placeholder">
+                                <i class="fas fa-video"></i>
+                                <p>Video: My first AWS deployment</p>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p>Behind the scenes: Working on Terraform</p>
+                            </div>
+                        </div>
+                        <div class="media-item">
+                            <div class="media-placeholder">
+                                <i class="fas fa-video"></i>
+                                <p>Video: Explaining my projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="personal-section">
+                    <h3>💭 Fun Facts</h3>
+                    <div class="fun-facts">
+                        <div class="fact-item">
+                            <span class="fact-icon">☕</span>
+                            <p>I drink more coffee than water during coding sessions</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-icon">🌙</span>
+                            <p>I'm a night owl - my best coding happens after midnight</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-icon">🎯</span>
+                            <p>I love solving complex problems and turning them into simple solutions</p>
+                        </div>
+                        <div class="fact-item">
+                            <span class="fact-icon">🚀</span>
+                            <p>My dream is to work on infrastructure that serves millions of users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud & Infra</h3>
+                    <ul>
+                        <li>AWS (EC2, VPC, RDS, S3, IAM, Lambda, Route53, Auto Scaling, ELB)</li>
+                        <li>Terraform (Infrastructure as Code)</li>
+                        <li>Kubernetes (EKS basics)</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>CI/CD & Automation</h3>
+                    <ul>
+                        <li>Jenkins, GitHub Actions</li>
+                        <li>Bash, Python scripting</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Networking</h3>
+                    <ul>
+                        <li>DNS, Load Balancing, TLS/SSL basics</li>
+                        <li>Cisco Networking Basics (NetAcad certified)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Tools</h3>
+                    <ul>
+                        <li>Git/GitHub</li>
+                        <li>Linux administration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>1. High-Availability One-Tier AWS Architecture (Terraform + Jenkins)</h3>
+                    <p>Designed a highly available AWS infrastructure using Terraform (VPC, EC2, ELB, Auto Scaling). Automated deployments with Jenkins CI/CD.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Blog Post</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>2. Two-Tier & Three-Tier AWS Architectures (Terraform)</h3>
+                    <p>Built multi-tier apps (frontend, backend, DB) with AWS + Terraform. Improved scalability and repeatability with IaC.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Blog Post</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>3. Amazon Lex Chatbot with Lambda & DynamoDB</h3>
+                    <p>Developed a chatbot using Amazon Lex. Used Lambda for logic and DynamoDB for persistence.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Blog Post</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>4. CI/CD Pipeline with Jenkins & Terraform</h3>
+                    <p>Built a Git-triggered pipeline for automated deployments. Eliminated manual steps, reduced downtime.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn btn-small">Blog Post</a>
+                        <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification">
+                    <i class="fas fa-certificate"></i>
+                    <h3>AWS Certified Solutions Architect – Associate (SAA)</h3>
+                </div>
+                <div class="certification">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Cisco Networking Basics – NetAcad</h3>
+                </div>
+                <div class="certification">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Python for Everybody – University of Michigan (Coursera)</h3>
+                </div>
+                <div class="certification">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Intro to Frontend Development – Meta (Coursera)</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Cloud Intern – Symbiotes.ai (2024)</h3>
+                <ul>
+                    <li>Worked with founders in a startup setting, gaining hands-on exposure to both infra and product development.</li>
+                    <li>Designed and deployed AWS infrastructure with Terraform and CI/CD pipelines.</li>
+                    <li>Built full-stack web apps with cloud integration.</li>
+                    <li>Contributed to AI agent development for automation and customer interaction.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section bg-light">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <h3>AWS High-Availability Architecture with Terraform + Jenkins</h3>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Multi-Tier AWS Architectures with Terraform</h3>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="blog-card">
+                    <h3>Amazon Lex Chatbot with Lambda + DynamoDB</h3>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="https://medium.com/@manojreddy2404" target="_blank" class="btn btn-outline">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <a href="mailto:manojreddy2404@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i> manojreddy2404@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/manojkumarreddy2404" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i> linkedin.com/in/manojkumarreddy2404
+                    </a>
+                    <a href="https://github.com/ManojKumarReddy2404" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i> github.com/ManojKumarReddy2404
+                    </a>
+                    <a href="https://medium.com/@manojreddy2404" target="_blank" class="contact-item">
+                        <i class="fab fa-medium"></i> medium.com/@manojreddy2404
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manoj Kumar Reddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
